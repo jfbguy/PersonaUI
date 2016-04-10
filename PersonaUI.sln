@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PersonaUI", "PersonaUI.njsproj", "{FDF1246D-672F-460A-B857-CB22335C404D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF1246D-672F-460A-B857-CB22335C404D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF1246D-672F-460A-B857-CB22335C404D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF1246D-672F-460A-B857-CB22335C404D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF1246D-672F-460A-B857-CB22335C404D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

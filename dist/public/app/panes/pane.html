@@ -1,0 +1,7 @@
+<defs>
+    <clippath id="my-definition">
+        <polygon [attr.points]="points"></polygon>
+    </clippath>
+</defs>
+<div class="pane" [ngStyle]="{'-webkit-clip-path': 'polygon('+points+')', 'clip-path': 'url(\'my-definition\')', 'background-image': 'url(' + background + ')'}"></div>
+<ng-content></ng-content>
