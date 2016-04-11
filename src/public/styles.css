@@ -10,6 +10,13 @@ html{
 	color: #ECECEC;
 }
 
+.view{
+    position: absolute;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background-color:#9D000B;
+}
+
 .home-number{
     font-family: 'Lobster', cursive;
     font-size:11em;

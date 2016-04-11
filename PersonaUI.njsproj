@@ -6,9 +6,8 @@
     <ProjectGuid>{fdf1246d-672f-460a-b857-cb22335c404d}</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <ProjectView>ProjectFiles</ProjectView>
-    <StartupFile>
-    </StartupFile>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>dist\server.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -58,6 +57,8 @@
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\angular-protractor\angular-protractor.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\angular-protractor\angular-protractor.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\angular-protractor\angular-protractor.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\angular-protractor\angular-protractor.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-collections\es6-collections.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-collections\es6-collections.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-collections\es6-collections.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-collections\es6-collections.d.ts" />
@@ -102,6 +103,8 @@
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-promise\es6-promise.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-promise\es6-promise.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-promise\es6-promise.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\es6-promise\es6-promise.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\hammerjs\hammerjs.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\hammerjs\hammerjs.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\hammerjs\hammerjs.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\hammerjs\hammerjs.d.ts" />
@@ -146,6 +149,8 @@
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\jasmine\jasmine.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\jasmine\jasmine.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\node\node.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\node\node.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\node\node.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\node\node.d.ts" />
@@ -190,6 +195,8 @@
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\selenium-webdriver\selenium-webdriver.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\selenium-webdriver\selenium-webdriver.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\selenium-webdriver\selenium-webdriver.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\selenium-webdriver\selenium-webdriver.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\ts\typings\tsd.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\tsd.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\tsd.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\ts\typings\tsd.d.ts" />
@@ -234,6 +241,8 @@
     <TypeScriptCompile Include="node_modules\angular2\typings\browser.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\browser.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\browser.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\typings\browser.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\typings\es6-collections\es6-collections.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\es6-collections\es6-collections.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\es6-collections\es6-collections.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\es6-collections\es6-collections.d.ts" />
@@ -278,6 +287,8 @@
     <TypeScriptCompile Include="node_modules\angular2\typings\es6-promise\es6-promise.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\es6-promise\es6-promise.d.ts" />
     <TypeScriptCompile Include="node_modules\angular2\typings\es6-promise\es6-promise.d.ts" />
+    <TypeScriptCompile Include="node_modules\angular2\typings\es6-promise\es6-promise.d.ts" />
+    <TypeScriptCompile Include="node_modules\reflect-metadata\typings\node.d.ts" />
     <TypeScriptCompile Include="node_modules\reflect-metadata\typings\node.d.ts" />
     <TypeScriptCompile Include="node_modules\reflect-metadata\typings\node.d.ts" />
     <TypeScriptCompile Include="node_modules\reflect-metadata\typings\node.d.ts" />
@@ -322,6 +333,8 @@
     <TypeScriptCompile Include="node_modules\tslint\typings\colors\colors.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\colors\colors.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\colors\colors.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\colors\colors.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\diff\diff.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\diff\diff.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\diff\diff.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\diff\diff.d.ts" />
@@ -366,6 +379,8 @@
     <TypeScriptCompile Include="node_modules\tslint\typings\findup-sync\findup-sync.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\findup-sync\findup-sync.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\findup-sync\findup-sync.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\findup-sync\findup-sync.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\glob\glob.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\glob\glob.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\glob\glob.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\glob\glob.d.ts" />
@@ -410,6 +425,8 @@
     <TypeScriptCompile Include="node_modules\tslint\typings\minimatch\minimatch.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\minimatch\minimatch.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\minimatch\minimatch.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\minimatch\minimatch.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\node\node.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\node\node.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\node\node.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\node\node.d.ts" />
@@ -454,6 +471,8 @@
     <TypeScriptCompile Include="node_modules\tslint\typings\optimist\optimist.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\optimist\optimist.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\optimist\optimist.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\optimist\optimist.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\underscore.string\underscore.string.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\underscore.string\underscore.string.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\underscore.string\underscore.string.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\underscore.string\underscore.string.d.ts" />
@@ -498,6 +517,8 @@
     <TypeScriptCompile Include="node_modules\tslint\typings\underscore\underscore.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\underscore\underscore.d.ts" />
     <TypeScriptCompile Include="node_modules\tslint\typings\underscore\underscore.d.ts" />
+    <TypeScriptCompile Include="node_modules\tslint\typings\underscore\underscore.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\aliases.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\aliases.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\aliases.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\aliases.d.ts" />
@@ -542,6 +563,8 @@
     <TypeScriptCompile Include="node_modules\typings\dist\bin-bundle.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-bundle.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-bundle.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-bundle.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-init.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-init.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-init.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-init.d.ts" />
@@ -586,6 +609,8 @@
     <TypeScriptCompile Include="node_modules\typings\dist\bin-install.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-install.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-install.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-install.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-list.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-list.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-list.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-list.d.ts" />
@@ -630,6 +655,8 @@
     <TypeScriptCompile Include="node_modules\typings\dist\bin-open.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-open.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-open.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-open.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-search.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-search.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-search.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-search.d.ts" />
@@ -674,6 +701,8 @@
     <TypeScriptCompile Include="node_modules\typings\dist\bin-uninstall.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-uninstall.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-uninstall.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-uninstall.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin-view.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-view.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-view.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin-view.d.ts" />
@@ -718,6 +747,7 @@
     <TypeScriptCompile Include="node_modules\typings\dist\bin.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\bin.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\bin.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
@@ -740,6 +770,8 @@
     <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\support\cli.d.ts" />
+    <TypeScriptCompile Include="node_modules\typings\dist\typings.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\typings.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\typings.d.ts" />
     <TypeScriptCompile Include="node_modules\typings\dist\typings.d.ts" />
@@ -790,6 +822,8 @@
     <TypeScriptCompile Include="typings\browser.d.ts" />
     <TypeScriptCompile Include="typings\browser.d.ts" />
     <TypeScriptCompile Include="typings\browser.d.ts" />
+    <TypeScriptCompile Include="typings\browser.d.ts" />
+    <TypeScriptCompile Include="typings\browser\ambient\es6-shim\index.d.ts" />
     <TypeScriptCompile Include="typings\browser\ambient\es6-shim\index.d.ts" />
     <TypeScriptCompile Include="typings\browser\ambient\es6-shim\index.d.ts" />
     <TypeScriptCompile Include="typings\browser\ambient\es6-shim\index.d.ts" />
@@ -834,6 +868,8 @@
     <TypeScriptCompile Include="typings\browser\ambient\jasmine\index.d.ts" />
     <TypeScriptCompile Include="typings\browser\ambient\jasmine\index.d.ts" />
     <TypeScriptCompile Include="typings\browser\ambient\jasmine\index.d.ts" />
+    <TypeScriptCompile Include="typings\browser\ambient\jasmine\index.d.ts" />
+    <TypeScriptCompile Include="typings\main.d.ts" />
     <TypeScriptCompile Include="typings\main.d.ts" />
     <TypeScriptCompile Include="typings\main.d.ts" />
     <TypeScriptCompile Include="typings\main.d.ts" />
@@ -879,6 +915,8 @@
     <TypeScriptCompile Include="typings\main\ambient\es6-shim\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\es6-shim\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\es6-shim\index.d.ts" />
+    <TypeScriptCompile Include="typings\main\ambient\es6-shim\index.d.ts" />
+    <TypeScriptCompile Include="typings\main\ambient\jasmine\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\jasmine\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\jasmine\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\jasmine\index.d.ts" />
@@ -938,6 +976,7 @@
     <TypeScriptCompile Include="typings\browser\ambient\jasmine\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\es6-shim\index.d.ts" />
     <TypeScriptCompile Include="typings\main\ambient\jasmine\index.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />

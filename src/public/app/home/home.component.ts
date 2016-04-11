@@ -54,11 +54,8 @@ export class HomeComponent implements OnActivate, OnDeactivate, AfterViewInit {
     }
 
     ngAfterViewInit() {
-        console.log('view children', this.viewPanes);
-
         var panes = this.viewPanes.toArray();
         for (var i = 0; i < panes.length; i++) {
-            console.log(panes[i].id, panes[i].id == "main-menu");
             if (panes[i].id == "main-menu") {
                 var anim = this.animBuilder.css();
                 anim.setDuration(500);

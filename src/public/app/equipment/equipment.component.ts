@@ -17,7 +17,7 @@ export class EquipComponent implements OnActivate, OnDeactivate, AfterViewInit {
     @ViewChildren(Pane)
     viewPanes: QueryList<Pane>;
 
-    exitAnimations: { element: ElementRef, animation: CssAnimationBuilder }[] = [];
+    enterAnimations: { element: ElementRef, animation: CssAnimationBuilder }[] = [];
 
     //menuItems: Pane[];
     menuItems: Object[];
@@ -38,12 +38,26 @@ export class EquipComponent implements OnActivate, OnDeactivate, AfterViewInit {
 
     ngAfterViewInit() {
         //console.log('view children', this.viewPanes);
+
+        var panes = this.viewPanes.toArray();
+        for (var i = 0; i < panes.length; i++) {
+            console.log(panes[i].id, panes[i].id == "home-background");
+            if (panes[i].id == "home-background") {
+                var anim = this.animBuilder.css();
+                anim.setDuration(1000);
+                anim.setFromStyles({ left: '40%' }).setToStyles({ left: '0%'  });
+                this.enterAnimations.push({ element: panes[i].element, animation: anim });
+            }
+        }
+
+        for (var i = 0; i < this.enterAnimations.length; i++) {
+            console.log(this.enterAnimations[i].animation);
+            this.enterAnimations[i].animation.start(this.enterAnimations[i].element.nativeElement);
+        }
     }
 
     routerOnActivate(next: ComponentInstruction, prev: ComponentInstruction) {
-        console.log('activate!!!', next, prev);
 
-        this.animBuilder.css().setFromStyles({ opacity: 0 }).setToStyles({ opacity: 100 }).setDuration(100).start(this.element.nativeElement);
     }
 
     routerOnDeactivate(next: ComponentInstruction, prev: ComponentInstruction) {
