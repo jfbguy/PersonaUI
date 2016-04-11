@@ -1,5 +1,5 @@
 ﻿import {Component, ElementRef, AfterContentInit, Input} from 'angular2/core';
-import {Animation, AnimationStep} from '../animations/animations';
+import {Animation, AnimationStep} from '../animations/svg.animations';
 
 @Component({
     selector: 'SVGFractal',

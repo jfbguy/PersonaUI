@@ -11,7 +11,7 @@
     "postinstall": "typings install"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.13",
+    "angular2": "2.0.0-beta.14",
     "body-parser": "1.15.0",
     "cookie-parser": "1.4.1",
     "ejs": "2.4.1",

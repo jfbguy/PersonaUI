@@ -3,14 +3,12 @@
     <!--
     <pane id="home-background" rect="0,0,100,100" background="app/images/Persona5Screenshot.jpg" style="opacity:.2;z-index: 99;"></pane>
     -->
-    <pane [id]="'home-right-background'" [rect]="'0,0,100,100'" [background]="'app/images/red_background.png'">
+    <pane [id]="'background-red'" [rect]="'0,0,100,100'" [background]="'app/images/red_background.png'">
     </pane>
-    <pane [id]="'home-right-background'" [rect]="'40,0,60,100'" [background]="'app/images/giphy_slow.gif'" [points]="'32.7% 0%, 100% 0%, 100% 100%, 2% 100%'">
+    <pane [id]="'background-right'" [rect]="'40,0,60,100'" [background]="'app/images/giphy_slow.gif'" [points]="'32.7% 0%, 100% 0%, 100% 100%, 2% 100%'">
     </pane>
 
-    <pane [id]="'hover-number'" [rect]="'86,50,25,25'" class="home-number">
-        02
-    </pane>
+    <pane [id]="'hover-number'" [rect]="'86,50,25,25'" class="home-number">02</pane>
 
 
 
@@ -19,23 +17,13 @@
               [points]="'0% 0%, 42.6% 0%, 16.9% 100%, 0% 100%'" class="invert"></pane>
     </pane>
 
-    <!--
-
-        animations="{event: 'skill',
-                    loop: false,
-                    steps: [{ time: 0, attr: 'style:left', value: 48 },
-                        { time: 1, attr: 'style:left', value: -50 }
-                    ]
-                }"
-        -->
-
-    <pane class="main-menu" rect="24,20,35,55">
-        <pane *ngFor="#item of menuItems; #i = index" id="{{item.id}}" rect="{{item.rect}}"
-              class="menu-item-pop sticky" tabindex="0" action-link="{{item.id}}" animations="{{item.animations}}">
-            <pane rect="0,0,100,100" background="{{item.background}}.png" class="pop"></pane>
+    <!--[router-link]="['/page', {id: 5}]" If I want to add parameters-->
+    <pane [id]="'main-menu'"class="main-menu" [rect]="'24,20,35,55'">
+        <pane *ngFor="#item of menuItems; #i = index" [id]="'item.id'" [rect]="item.rect"
+              class="menu-item-pop sticky" tabindex="0" [routerLink]="[item.route]">
+            <pane [rect]="'0,0,100,100'" [background]="item.background+'.png'" class="pop"></pane>
             <SVGFractal class="full"></SVGFractal>
-            <pane rect="0,0,100,100" background="{{item.background}}-alpha.png" class="pop"></pane>
+            <pane [rect]="'0,0,100,100'" [background]="item.background+'-alpha.png'" class="pop"></pane>
         </pane>
     </pane>
-
 </div>

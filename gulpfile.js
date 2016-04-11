@@ -54,6 +54,19 @@ gulp.task('compile', ['clean'], function () {
 gulp.task('copy:libs', ['clean'], function() {
   return gulp.src([
 	  'node_modules/es6-shim/es6-shim.min.js',
+	  'node_modules/systemjs/dist/system-polyfills.js',
+      'node_modules/systemjs/dist/system.src.js',
+      'node_modules/rxjs/bundles/Rx.js',
+      'node_modules/angular2/**/*.js'
+    ])
+    .pipe(gulp.dest('dist/public/lib'))
+});
+
+/*
+// copy dependencies
+gulp.task('copy:libs', ['clean'], function() {
+  return gulp.src([
+	  'node_modules/es6-shim/es6-shim.min.js',
       'node_modules/angular2/bundles/angular2-polyfills.js',
 	  'node_modules/angular2/es6/dev/src/testing/shims_for_IE.js',
 	  'node_modules/systemjs/dist/system-polyfills.js',
@@ -64,6 +77,7 @@ gulp.task('copy:libs', ['clean'], function() {
     ])
     .pipe(gulp.dest('dist/public/lib'))
 });
+*/
 
 // copy static assets - i.e. non TypeScript compiled source
 gulp.task('copy:assets', ['clean'], function() {

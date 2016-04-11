@@ -13,9 +13,15 @@ import {ActionNavigation} from './action.navigation';
 })
 
 @RouteConfig([
-    { path: '/', name: 'Home', component: HomeComponent, useAsDefault: true }/*,
-    {path:'/equip', name: 'Equipment', component: EquipComponent},
-    {path:'/equip/:id', name: 'EquipDetail', component: EquipDetailComponent}*/
+    { path: '/', name: 'Home', component: HomeComponent, useAsDefault: true },
+    { path: '/skill', name: 'Skill', component: EquipComponent },
+    { path: '/item', name: 'Item', component: EquipComponent },
+    { path: '/equip', name: 'Equip', component: EquipComponent },
+    { path: '/persona', name: 'Persona', component: EquipComponent },
+    { path: '/party', name: 'Party', component: EquipComponent },
+    { path: '/cooperation', name: 'Cooperation', component: EquipComponent },
+    { path: '/mission', name: 'Mission', component: EquipComponent },
+    { path: '/system', name: 'System', component: EquipComponent }
 ])
 
 export class AppComponent{

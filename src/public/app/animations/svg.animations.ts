@@ -15,7 +15,6 @@
 
     public start(object: any) {
         var timer = 0;
-       // console.log('start',object);
         this.tick(object, timer, this);
     }
 
@@ -71,7 +70,6 @@
             }
 
             //Add to timer and repeat
-            //timer = (timer + (1.0 / Animation.fps)) % steps[steps.length - 1].time;
             timer += (1.0 / Animation.fps);
             if (timer > steps[steps.length - 1].time) {
                 if (animationHandle.loop) {

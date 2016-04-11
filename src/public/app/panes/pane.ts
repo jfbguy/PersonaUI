@@ -1,5 +1,5 @@
 import {Component, ElementRef, QueryList, AfterViewInit, AfterContentInit, Input, ContentChildren, Attribute, EventEmitter} from 'angular2/core';
-import {Animation, AnimationStep} from '../animations/animations';
+//import {Animation, AnimationStep} from '../animations/animations';
 import {Rect} from './rect';
 import {ActionNavigation} from '../action.navigation';
 
@@ -15,7 +15,7 @@ export class Pane implements AfterViewInit, AfterContentInit{
     @ContentChildren('Pane')
     paneChildren: QueryList<Pane>;
 
-    private eventAnimations: { [id: string]: Animation };
+    //private eventAnimations: { [id: string]: Animation };
     private emitters: { [id: string]: EventEmitter<any> } = {};
 
     @Input()
@@ -31,11 +31,11 @@ export class Pane implements AfterViewInit, AfterContentInit{
     @Input()
     animations: string;
 
-    paneAnimation: Animation;
+    //paneAnimation: Animation;
     currentRect: Rect;
 
     constructor(public element: ElementRef) {
-        this.eventAnimations = {};
+        //this.eventAnimations = {};
     }
 
     /*
@@ -53,7 +53,7 @@ export class Pane implements AfterViewInit, AfterContentInit{
         //this.paneAnimation = SVGAnimations.getAnimation(this.animation);
     }
 
-    ngAfterContentInit() {
+    ngAfterContentInit() {/*
         if (this.animations) {
             var animations = JSON.parse(this.animations);
 
@@ -65,7 +65,7 @@ export class Pane implements AfterViewInit, AfterContentInit{
                 }
                 this.addAnimation(animations[i].event, anim);
             }
-        }
+        }*/
     }
 
     public setRect(rect: Rect) {
@@ -77,7 +77,7 @@ export class Pane implements AfterViewInit, AfterContentInit{
         this.element.nativeElement.style.width = this.currentRect.w + '%';
         this.element.nativeElement.style.height = this.currentRect.h + '%';
     }
-
+    /*
     public addAnimation(id: string, animation: Animation) {
         this.eventAnimations[id] = animation;
 
@@ -96,7 +96,7 @@ export class Pane implements AfterViewInit, AfterContentInit{
         if (this.eventAnimations[event]) {
             this.eventAnimations[event].start(this);
         }
-    }
+    }*/
 }
 
 
